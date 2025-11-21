@@ -43,18 +43,6 @@ public:
         }
     }
 
-    // static int policzSamogloski(const wstring &s)
-    // {
-    //     const wstring vowels = L"aąeęiouóyAĄEĘIOUÓY";
-    //     int count = 0;
-
-    //     for (wchar_t c : s)
-    //         if (vowels.find(c) != wstring::npos)
-    //             count++;
-
-    //     return count;
-    // }
-
     static string bezPodwojonych(string podanyCiagZnakow)
     {
         string zmienionyCiag = "";
