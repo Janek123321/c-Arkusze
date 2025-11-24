@@ -13,6 +13,13 @@ public:
         ileRzutow = ileRzutowP;
     }
 
+    //     ************************************************
+    //   nazwa:    losuj
+    //   opis:    metoda losuje liczbe z przedzialu 1 - 6 i wstawia do wektora z wynikami rzutów
+    //   parametry:   brak
+    //   zwracany typ i opis:   brak
+    //   autor:     <numer zdającego>
+    // ************************************************
     void losuj()
     {
         srand(time(NULL));
