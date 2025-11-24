@@ -37,23 +37,23 @@ int main()
 {
     string imie;
     int id;
-    cout<<"Liczba zarejestrowanych osob: "<<Osoba::liczbaInstancjiKlasy<<endl;
+    cout << "Liczba zarejestrowanych osob: " << Osoba::liczbaInstancjiKlasy << endl;
     Osoba osoba1;
-    cout<<"Podaj id dla osoby: \n";
-    cin>>id;
-    cout<<"Podaj imie dla osoby: \n";
-    cin>>imie;
+    cout << "Podaj id dla osoby: \n";
+    cin >> id;
+    cout << "Podaj imie dla osoby: \n";
+    cin >> imie;
     Osoba osoba2(id, imie);
     Osoba osoba3(osoba2);
 
     osoba1.wypiszImie("Jan");
-    cout<<endl;
+    cout << endl;
     osoba2.wypiszImie("Jan");
-    cout<<endl;
+    cout << endl;
     osoba3.wypiszImie("Jan");
-    cout<<endl;
+    cout << endl;
 
-    cout<<"Liczba zarejestrowanych osob: "<<Osoba::liczbaInstancjiKlasy<<endl;
+    cout << "Liczba zarejestrowanych osob: " << Osoba::liczbaInstancjiKlasy << endl;
 
     return 0;
 }

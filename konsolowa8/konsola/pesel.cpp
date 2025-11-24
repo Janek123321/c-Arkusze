@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 // ********************************************** 
 // nazwa funkcji:   sprawdzPlec
 // opis funkcji:    Funkcja sprawdza czy ostatnia cyfra podanego peselu jest parzysta czy nie i na tej podstawie ustala płeć właściciela peselu

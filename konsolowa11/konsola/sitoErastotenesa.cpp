@@ -17,15 +17,14 @@ void sito(int tablica[])
         }
     }
 }
-
-// ******************************************************* 
+// *******************************************************
 //   nazwa funkcji:       wypelnij();
 //   parametry wejściowe: tablicaDoWypelnienia[] - przechowuje tablice liczb calkowitych ktora ma zostac wypelniona;
 //                        liczbaElementowTablicy - przechowuje liczbe calkowita reprezentujaca liczbe elementow tablicy do wypelnienia;
 //   wartość zwracana:    funkcja nie zwraca wartosci;
-//   informacje:          funkcja wypelnij() wypelnia podana w parametrze funkcji tablice liczb calkowitych licbami od 2 do 100; 
-//   autor:               <numer zdającego> 
-//  **************************************************** 
+//   informacje:          funkcja wypelnij() wypelnia podana w parametrze funkcji tablice liczb calkowitych licbami od 2 do 100;
+//   autor:               <numer zdającego>
+//  ****************************************************
 void wypelnij(int tablicaDoWypelnienia[], int liczbaElementowTablicy)
 {
     for (int i = 2; i <= liczbaElementowTablicy; i++)
